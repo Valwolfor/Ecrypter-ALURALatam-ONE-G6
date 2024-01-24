@@ -1,0 +1,20 @@
+{
+  "en": {
+    "welcomeMessage": "Welcome to the Web Encryptor!",
+    "title_app": "Encryter App ONE-G6",
+    "placeholder_input": ""
+    // Other English text
+  },
+  "es": {
+    "welcomeMessage": "¡Bienvenido al Encryptor web!",
+    "title_app": "Encriptador App ONE-G6",
+    "placeholder_input": "Ingrese el texto a encriptar"
+    // Other Spanish text
+  },
+  "pt": {
+    "welcomeMessage": "Bem-vindo ao Encryptor web!",
+    "title_app": "Encryter App ONE-G6",
+    "placeholder_input": ""
+    // Other Portuguese text
+  }
+}
