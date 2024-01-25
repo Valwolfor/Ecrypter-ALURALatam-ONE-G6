@@ -1,6 +1,16 @@
 /*
 Validate the correct format text and encrypt the text.
  */
+const replacements = {
+    'e': 'enter',
+    'i': 'imes',
+    'a': 'ai',
+    'o': 'ober',
+    'u': 'ufat'
+};
+
+const invertedReplacements = {};
+
 function validateAndConvertToLowercase(textarea) {
 
     let currentText = textarea.value.toLowerCase();
@@ -17,6 +27,26 @@ function validateAndConvertToLowercase(textarea) {
 
 function encryptText(text) {
 
+    // Use a regular expression to match any of the specified letters globally and perform replacements. The other letters stay in the same order.
+    var encryptedText = text.replace(/[eiaou]/g, match => replacements[match] || match);
+    returnResult(encryptedText);
+}
+
+function decryptText(text) {
+    for (const key in replacements) {
+        invertedReplacements[replacements[key]] = key;
+    }
+
+    var decryptedText = text.replace(/(enter|imes|ai|ober|ufat)/g, match => invertedReplacements[match] || match);
+    returnResult(decryptedText);
+
+}
+
+function returnResult(text) {
+    var field = document.getElementById("output_text");
+    console.log(field);
+    field.textContent = text;
+    console.log(field);
 }
 
 
