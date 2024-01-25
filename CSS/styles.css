@@ -124,7 +124,8 @@ button {
     padding: 1em;
     border: 1px solid #aaa;
     border-radius: 12px;
-    background-color: #d9d6d4;
+    background-color: #c9c6c2;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 #btn_copy_text{
