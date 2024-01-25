@@ -85,6 +85,20 @@ button {
     background-color: rgba(225, 228, 229, 0.93);
     align-content: center;
     align-items: center;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+
+    &:hover {
+        transform: scale(1.05) ;
+        background-color: rgba(7, 66, 98, 0.93);
+        color: rgba(225, 228, 229, 0.93);
+    }
+
+    &:active {
+        transform: scale(0.95);
+        background-color: rgba(7, 66, 98, 0.8);
+        border-color: rgba(7, 66, 98, 0.8);
+        color: rgba(225, 228, 229, 0.8);
+    }
 }
 
 #btn_encrypter{

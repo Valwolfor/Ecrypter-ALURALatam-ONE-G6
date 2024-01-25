@@ -24,7 +24,7 @@
 
     <div id="app_box">
         <div id="input_field">
-            <textarea id="input_text">
+            <textarea id="input_text" oninput="validateAndConvertToLowercase(this)">
             </textarea>
             <div id="restriction_info">
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
@@ -42,8 +42,8 @@
             </div>
 
             <div id="btns_info_box">
-                <button id="btn_encrypter"></button>
-                <button id="btn_decrypter"></button>
+                <button id="btn_encrypter" onclick="encryptText(document.getElementById('input_text').value)"></button>
+                <button id="btn_decrypter" onclick="decryptText(document.getElementById('input_text').value)"></button>
             </div>
         </div>
         <div id="output_field">
@@ -56,5 +56,7 @@
 </main>
 
 <script src="JS/languageManager.js"></script>
+<script src="JS/core/encrypter.js"></script>
+<script src="JS/core/decrypter.js"></script>
 </body>
 </html>

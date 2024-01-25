@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function () {
     let currentLanguage = "es";
 
     // Fetch the language JSON file.
@@ -6,6 +6,7 @@ document.addEventListener('DOMContentLoaded', function() {
         .then(response => response.json())
         .then(data => {
             const languageText = data;
+
             // Function to switch language
             function switchLanguage(languageCode) {
                 currentLanguage = languageCode;
