@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     console.log("Antes del fetch")
     // Fetch the language JSON file.
-    fetch('../Resource/languageContent.json')
+    fetch('/Resource/languageContent.json')
         .then(response => response.json())
         .then(data => {
             const languageText = data;
