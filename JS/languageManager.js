@@ -1,11 +1,15 @@
-console.log("Antes an tes del fetch")
 document.addEventListener('DOMContentLoaded', function () {
     let currentLanguage = "es";
 
     console.log("Antes del fetch")
     // Fetch the language JSON file.
-    fetch('/Resource/languageContent.json')
-        .then(response => response.json())
+    fetch('./Resource/languageContent.json')
+        .then(response => {
+            if (!response.ok) {
+                throw new Error('Network response was not ok');
+            }
+            return response.json();
+        })
         .then(data => {
             const languageText = data;
             console.log("Despues del fetch")
@@ -37,6 +41,5 @@ document.addEventListener('DOMContentLoaded', function () {
                 switchLanguage(currentLanguage === 'es' ? 'en' : 'es');
             };
 
-        }).
-            catch(error => console.error('Error fetching language content:', error));
-        });
+        }).catch(error => console.error('Error fetching language content:', error));
+});
