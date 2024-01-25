@@ -1,3 +1,4 @@
+console.log("Antes an tes del fetch")
 document.addEventListener('DOMContentLoaded', function () {
     let currentLanguage = "es";
 
@@ -7,7 +8,8 @@ document.addEventListener('DOMContentLoaded', function () {
         .then(response => response.json())
         .then(data => {
             const languageText = data;
-    console.log("Despues del fetch")
+            console.log("Despues del fetch")
+
             // Function to switch language
             function switchLanguage(languageCode) {
                 currentLanguage = languageCode;
@@ -30,6 +32,11 @@ document.addEventListener('DOMContentLoaded', function () {
             // Initial update
             updateUI();
 
+            // Function to change the language
+            window.changeLanguage = function () {
+                switchLanguage(currentLanguage === 'es' ? 'en' : 'es');
+            };
 
-        .catch(error => console.error('Error fetching language content:', error));
-});
+        }).
+            catch(error => console.error('Error fetching language content:', error));
+        });
