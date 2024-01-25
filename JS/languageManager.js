@@ -8,6 +8,7 @@ document.addEventListener('DOMContentLoaded', function () {
             if (!response.ok) {
                 throw new Error('Network response was not ok');
             }
+            console.log("Después del fetch sin retorno")
             return response.json();
         })
         .then(data => {
