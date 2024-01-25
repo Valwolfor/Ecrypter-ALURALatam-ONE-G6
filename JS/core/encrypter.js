@@ -44,19 +44,21 @@ function decryptText(text) {
 
 function returnResult(text) {
     var field = document.getElementById("output_text");
-    console.log(field);
+    document.getElementById("btn_copy_text").style.display = "inline-block";
+
     field.textContent = text;
-    console.log(field);
 }
 
-function copyText(){
+function copyText() {
     let copyText = document.getElementById("output_text").textContent;
-    console.log(copyText);
+
     //Use the api of Clipboard.
-    navigator.clipboard.
-        writeText(copyText)
+    navigator.clipboard.writeText(copyText)
         .then(
-        );
+     //Nothing for now
+            );
+
+    document.getElementById("btn_copy_text").style.display = "none";
 }
 
 

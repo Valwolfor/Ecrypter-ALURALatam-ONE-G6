@@ -1,0 +1,30 @@
+/* Styles specific to small screens (mobile devices) */
+@media (max-width: 576px) {
+    /* Change the flex direction for app_box to stack items vertically */
+    header{
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+        text-align: center;
+    }
+
+    #app_box {
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+    }
+
+    #input_field {
+        width: 90%;
+    }
+
+}
+
+@media (min-width: 577px) and (max-width: 992px) {
+    /* Agrega estilos específicos para pantallas medianas según sea necesario */
+}
+
+/* Estilos específicos para pantallas grandes (computadoras de escritorio) */
+@media (min-width: 993px) {
+    /* Agrega estilos específicos para pantallas grandes según sea necesario */
+}
