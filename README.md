@@ -1,41 +1,41 @@
-# Encryptador y Decryptador - Oracle One Alura G6
+# Encryptador and Decryptador - Oracle One Alura G6
 
-## Descripción del Proyecto
+## Project Description
 
-Este proyecto es parte del programa Oracle One con Alura y se centra en desarrollar un Encryptador y Decryptador. Proporciona una interfaz simple para cifrar y descifrar texto, con soporte para múltiples idiomas. Tiene un diseño resposivo.
+This project is part of the Oracle One program with Alura, focusing on developing an Encryptador and Decryptador. It provides a simple interface for encrypting and decrypting text, with support for multiple languages. It features a responsive design.
 
-## Características
+## Features
 
-- **Cifrado y Descifrado:** Permite a los usuarios cifrar y descifrar texto de manera fácil y segura.
-- **Cambiar Idioma:** Ofrece la posibilidad de cambiar entre varios idiomas para la interfaz.
+- **Encryption and Decryption:** Allows users to easily and securely encrypt and decrypt text.
+- **Language Switching:** Offers the ability to switch between multiple languages for the interface.
 
-## Instalación
+## Installation
 
-1. Clona el repositorio: `git clone https://github.com/tu-usuario/encryptador-decryptador.git`
-2. Abre el archivo `index.html` en tu navegador.
-1a. También puedes acceder a la página.
+1. Clone the repository: `git clone https://github.com/your-username/encryptador-decryptador.git`
+2. Open the `index.html` file in your browser.
+    1. You can also access the page [here](#).
 
-## Uso
+## Usage
 
-1. Ingresa el texto en el área de entrada.
-2. Selecciona la acción deseada (Cifrar o Descifrar).
-3. Visualiza el resultado en el área de salida.
-4. Click en el botón copiar para tener el texto en tu portapapeles.
+1. Enter the text in the input area.
+2. Select the desired action (Encrypt or Decrypt).
+3. View the result in the output area.
+4. Click the copy button to copy the text to your clipboard.
 
-## Cambio de Idioma
+## Language Switching
 
-- Utiliza el botón "Cambiar Idioma" para alternar entre los idiomas disponibles. Por ahora solo inglés y español, pero podría ponerse en portuguese. 
+- Use the "Switch Language" button to toggle between available languages. Currently supporting English and Spanish, with potential for Portuguese.
 
-## Contribuciones
+## Contributions
 
-¡Contribuciones son bienvenidas! Si deseas mejorar este proyecto, sigue estos pasos:
+Contributions are welcome! If you want to improve this project, follow these steps:
 
-1. Haz un fork del proyecto.
-2. Crea una rama para tus cambios: `git checkout -b feature/nueva-caracteristica`.
-3. Realiza tus modificaciones y haz commit: `git commit -m 'Añadir nueva característica'`.
-4. Haz push a tu rama: `git push origin feature/nueva-caracteristica`.
-5. Crea un pull request.
+1. Fork the project.
+2. Create a branch for your changes: `git checkout -b feature/new-feature`.
+3. Make your modifications and commit: `git commit -m 'Add new feature'`.
+4. Push to your branch: `git push origin feature/new-feature`.
+5. Create a pull request.
 
 ---
 
-**Desarrollado por Valwolfor-Diego Felipe Gallo García - Oracle One Alura G6**
+**Developed by Valwolfor-Diego Felipe Gallo García - Oracle One Alura G6**

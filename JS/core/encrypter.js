@@ -49,4 +49,14 @@ function returnResult(text) {
     console.log(field);
 }
 
+function copyText(){
+    let copyText = document.getElementById("output_text").textContent;
+    console.log(copyText);
+    //Use the api of Clipboard.
+    navigator.clipboard.
+        writeText(copyText)
+        .then(
+        );
+}
+
 
