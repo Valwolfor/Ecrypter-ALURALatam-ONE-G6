@@ -2,13 +2,17 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="styles.css">
-    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/styles.css">
+    <link rel="icon" href="./assets/favicon.png" type="image/png">
+
+    <title>Encrypter ONE G6</title>
 
 </head>
 <body>
 <header>
     <h1 id="title_app"></h1>
+    <button id="btn_change_language" onclick="changeLanguage()"></button>
 </header>
 <main>
     <!-- Alura logo-->
@@ -34,7 +38,7 @@
                         </clipPath>
                     </defs>
                 </svg>
-                <span id="info_input">Texto a eliminar</span>
+                <span id="info_input"></span>
             </div>
 
             <div id="btns_info_box">
@@ -43,12 +47,14 @@
             </div>
         </div>
         <div id="output_field">
-            <p id="output_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Orci montes, sit et diam risus scelerisque vitae est. Tortor maecenas nunc ut laoreet. Eget diam mauris quam quisque ut eget fringilla sit elit. Libero, sodales duis fames id diam
+            <p id="output_text" >
             </p>
             <button id="btn_copy_text"></button>
         </div>
     </div>
 
 </main>
+
+<script src="JS/languageManager.js"></script>
 </body>
 </html>

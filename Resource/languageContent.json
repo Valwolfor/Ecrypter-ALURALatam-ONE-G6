@@ -1,0 +1,32 @@
+{
+  "en": {
+    "title_app": "Encrypter App ONE-G6",
+    "btn_change_language": "Change Language",
+    "placeholder_input": "Enter the text to encrypt",
+    "info_input": "Only lowercase and without accents.",
+    "btn_encrypter": "Encrypt",
+    "btn_decrypter": "Decrypt",
+    "output_text": "No text has been entered.",
+    "btn_copy_text": "Copy"
+  },
+  "es": {
+    "title_app": "Aplicación Encriptadora ONE-G6",
+    "btn_change_language": "Cambiar Lenguaje",
+    "placeholder_input": "Ingrese el texto a encriptar",
+    "info_input": "Solo minúsculas y sin tildes.",
+    "btn_encrypter": "Encriptar",
+    "btn_decrypter": "Desencriptar",
+    "output_text": "No se ha ingresado algún texto.",
+    "btn_copy_text": "Copiar"
+  },
+  "pt": {
+    "title_app": "Aplicação Encrypter ONE-G6",
+    "btn_change_language": "Mudar Idioma",
+    "placeholder_input": "Digite o texto a ser encriptado",
+    "info_input": "Apenas minúsculas e sem acentos.",
+    "btn_encrypter": "Encriptar",
+    "btn_decrypter": "Descriptar",
+    "output_text": "Nenhum texto foi inserido.",
+    "btn_copy_text": "Copiar"
+  }
+}
